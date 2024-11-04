@@ -1,2 +1,2 @@
 # unsplashbox
-his is a project from DevChallenges. It is similar to the Unsplash website, where you can view, share, and download images. It’s easy to search for the right image
+this is a project from DevChallenges. It is similar to the Unsplash website, where you can view, share, and download images. It’s easy to search for the right image
