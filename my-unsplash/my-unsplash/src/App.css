@@ -1,0 +1,23 @@
+/* --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --background-color: #f4f4f4;
+  --text-color: #333333; */
+
+
+.gray-bg {
+  background-color: #E5E7EB;
+}
+.primary-color{
+  color:#3498db ;
+}
+.primary-bg{
+  background-color:#3498db ;
+}
+
+.secondary-color{
+  color:#2ecc71 ;
+}
+
+.secondary-bg{
+  background-color:#2ecc71 ;
+}
