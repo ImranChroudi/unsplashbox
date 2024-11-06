@@ -21,3 +21,26 @@
 .secondary-bg{
   background-color:#2ecc71 ;
 }
+
+.bg-image{
+  background-position: center;
+  background-size: cover;
+}
+
+input , button{
+  outline: none;
+  border: none;
+}
+
+
+/* default page  */
+
+.default-page{
+  background-image: url("../src/ressources/bg-default-page.png");
+  height: calc(100% - 73px);
+}
+
+.search-input{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
