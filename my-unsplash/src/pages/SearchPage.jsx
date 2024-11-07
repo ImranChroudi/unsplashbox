@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import { FaSearch } from 'react-icons/fa'; // Font Awesome
+import InputSearch from '../components/InputSearch';
 
 
 const SearchPage = () => {
@@ -11,10 +12,7 @@ const SearchPage = () => {
                <section>
                  <h1>Search</h1>
                  <p>Search high-resolution images from Unsplash</p>
-                 <div className='search-input border rounded py-3 px-2 d-flex justify-content-between' style={{ width: '600px' }} >
-                   <input typeof='text' className='w-100' placeholder='Enter Your Keywords...' />
-                   <FaSearch style={{cursor : "pointer" , fontSize: '20px', color : "gray" , opacity : "0.7" ,  marginRight: '8px' }} />
-                 </div>
+                <InputSearch />
                </section>
            </main>
         </div>
