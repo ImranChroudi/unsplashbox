@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Title = () => {
+const Title = ({title}) => {
     return (
-        <h1>
-            Collections
+        <h1 className='title' >
+            {title}
         </h1>
     )
 }
