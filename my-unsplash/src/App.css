@@ -44,3 +44,42 @@ input , button{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+
+/* search page style */
+
+.part-searchInput{
+  height: 150px;
+  background-color: red;
+  background-image: linear-gradient(to right ,#f3c697 , #b96dae);
+}
+
+.photo-gallery{
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.column{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.column .photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.photo{
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+
+}
+
+.photo:hover{
+  transform: translateY(-10px);
+}
+
